@@ -1,141 +1,111 @@
 {
   "broadArea": {
-    "name": "Computer Science and Engineering",
-    "link": "http://vlab.co.in/broad-area-computer-science-and-engineering",
-    "code": "CSE"
+    "name": "Biotechnology and Biomedical Engineering",
+    "link": "https://www.vlab.co.in/broad-area-biotechnology-and-biomedical-engineering",
+    "code": "BIO"
   },
-  "lab": "Data Structures – 1",
-  "lab_display_name": "Data Structures – 1",
-  "phase": 3,
-  "collegeName": "IIITH",
-  "baseUrl": "ds1-iiith.vlabs.ac.in",
-  "introduction": "Welcome to the Data Structures Lab - I developed at IIIT Hyderabad. Data Structures (also called Data Structures and Algorithms in some places) is a core course in all computer science undergraduate curricula. The course is the basis for understanding several data structures and also algorithms that operate on them. The course forms the foundation for almost all computer science subjects: compilers, operating systems, databases, AI and software engineering. The course comes with a lab in most universities in India. The associated lab in university curricula focuses on implementation of algorithms operating on the data structures, i.e., coding programs on the data structures and algorithms. Students embarking on the task of writing programs, however, often have difficulty visualizing how operations and algorithms modify a data structure. As a result students are often unable to understand or show the execution of an algorithm on a given data structure and write code effectively. Furthermore, students are unable to visually reason about the time and space complexities associated with an algorithm running on a data structure. The interactive experiments in this lab will give the students an opportunity for learning and better understanding of using algorithms.",
-  "experiment-sections": [
-    {
-      "sect-name": "Sorting",
-      "experiments": [
-        {
-          "name": "Bubble Sort",
-          "short-name": "bubble-sort",
-          "repo": "https://github.com/virtual-labs/exp-bubble-sort-iiith.git",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Merge Sort",
-          "short-name": "merge-sort",
-          "repo": "https://github.com/virtual-labs/exp-merge-sort-iiith.git",
-          "tag": "v1.0.8",
-          "deploy": true
-        },
-        {
-          "name": "Heap Sort",
-          "short-name": "heap-sort",
-          "repo": "https://github.com/virtual-labs/exp-heap-sort-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Quick Sort",
-          "short-name": "quick-sort",
-          "repo": "https://github.com/virtual-labs/exp-quick-sort-iiith",
-          "tag": "v1.0.8",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Graphs",
-      "experiments": [
-        {
-          "name": "Depth First Search",
-          "short-name": "depth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-dfs-iiith",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Breadth First Search",
-          "short-name": "breadth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-bfs-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Trees",
-      "experiments": [
-        {
-          "name": "Tree Traversal",
-          "short-name": "tree-traversal",
-          "repo": "https://github.com/virtual-labs/exp-tree-traversal-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Binary Search Trees",
-          "short-name": "binary-search-trees",
-          "repo": "https://github.com/virtual-labs/exp-bst-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Searching",
-      "experiments": [
-        {
-          "name": "Unsorted Arrays",
-          "short-name": "unsorted-arrays",
-          "repo": "https://github.com/virtual-labs/exp-unsorted-arrays-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Hashtables",
-          "short-name": "hash-tables",
-          "repo": "https://github.com/virtual-labs/exp-hashtables-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Linked Lists",
-      "experiments": [
-        {
-          "name": "Linked lists",
-          "short-name": "linked-list",
-          "repo": "https://github.com/virtual-labs/exp-linked-lists-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Polynomial Arithmetic using linked lists",
-          "short-name": "poly-arithmetic",
-          "repo": "https://github.com/virtual-labs/exp-polynomial-arithmetic-iiith",
-          "tag": "v1.0.6",
-          "deploy": true
-        }
-      ]
-    }
-  ],
+  "lab": "Introduction to Bioinformatics Algorithms",
+  "lab_display_name": "Introduction to Bioinformatics Algorithms",
+  "phase": "3-ext",
+  "collegeName": "AMRT",
+  "baseUrl": "iba-amrt.vlabs.ac.in",
+  "introduction": "The Introduction to Bioinformatics Algorithms virtual lab is an interactive online platform designed to provide students with a solid foundation in the computational techniques used in modern bioinformatics. This lab offers a unique blend of theoretical understanding and hands-on experience with biological data, enabling learners to explore how algorithms are applied to solve real-world problems in biology and biotechnology.<br>Through a series of carefully structured experiments, students will engage with fundamental bioinformatics algorithms such as phylogenetic tree construction (Fitch-Margoliash, Neighbor-Joining), RNA secondary structure prediction (Nussinov and Zuker algorithms), sequence assembly (De Bruijn graphs), gene prediction (Viterbi algorithm), and peptide sequencing (Branch-and-Bound). These modules are designed to build both conceptual clarity and practical skills.<br>This virtual lab serves as an ideal learning tool for undergraduate and postgraduate students from disciplines like biotechnology, bioinformatics, microbiology, and computational biology. It supports tutor-independent learning and introduces basic programming skills relevant to analyzing and interpreting biological data.<br>By the end of the course, students will be equipped to apply bioinformatics algorithms confidently and will be better prepared for experimental research or advanced study in interdisciplinary fields that combine biology, computer science, and data analysis",
+  "experiments":[
+  {
+    "name": "Phylogenetic Tree Reconstruction Using the Fitch-Margoliash (FM) Algorithm",
+    "short-name": "fm-tree",
+    "repo": "https://github.com/virtual-labs/exp-fm-tree-au",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Implementation of the Neighbor-Joining (NJ) Algorithm for Phylogenetic Tree Construction",
+    "short-name": "nj-tree",
+    "repo": "https://github.com/virtual-labs/exp-nj-tree-au",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Exploring RNA Secondary Structure Prediction using the Nussinov Algorithm",
+    "short-name": "rna-nussinov",
+    "repo": "https://github.com/virtual-labs/exp-rna-nussinov-au",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Determining groups for Gene Expression Analysis using Genetic algorithm (GA)",
+    "short-name": "ga-groups",
+    "repo": "https://github.com/virtual-labs/exp-ga-groups-au",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Construction of De Bruijn Graphs for Sequence Assembly",
+    "short-name": "debruijn-graph",
+    "repo": "https://github.com/virtual-labs/exp-debruijn-graph-au",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Exploring the Viterbi Algorithm for exon-intron prediction",
+    "short-name": "viterbi-exons",
+    "repo": "https://github.com/virtual-labs/exp-viterbi-exons-au",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Analyze network topology by implementing Dijkstra’s Algorithm",
+    "short-name": "dijkstra-net",
+    "repo": "https://github.com/virtual-labs/exp-dijkstra-net-au",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Efficient RNA Secondary Structure Prediction Using the Zuker Algorithm",
+    "short-name": "zuker-rna",
+    "repo": "https://github.com/virtual-labs/exp-zuker-rna-au",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Branch-and-Bound Algorithm for Cyclopeptide Sequencing",
+    "short-name": "bnb-cyclo",
+    "repo": "https://github.com/virtual-labs/exp-bnb-cyclo-au",
+    "tag": "v1.0.0",
+    "deploy": true
+  }
+],
   "targetAudience": {
     "UG": [
-      " Data Structures & Algorithms for 1st & 2nd year B. Tech./ B.E in Computer Science & Information Technology <br/>- B.Sc / B.S in Computer Science "
+    "Biotechnology",
+    "Bioinformatics",
+    "Microbiology",
+    "Computational Biology",
+    "Computer Science (with interest in life sciences)"
     ],
     "PG": [
-      "Computer Science, Information Technology, Compilers, Operating systems, Databases, AI and Software engineering. <br/> - Ph. D. Beginners"
+    "Bioinformatics",
+    "Systems Biology",
+    "Molecular Biology",
+    "Biotechnology"
     ]
   },
-  "objective": "The Virtual Lab for Data Structures will focus on creating an environment where the student interactively explores data structures. The role of this Virtual Labs is to complement the lectures and reading material and the programming lab in three ways : 1. Present visual animations of data structures 2. Allow students to interactively execute algorithms in these data structures. 3. Allow students to interactively compute the cost of using these data structures with different algorithms.",
+  "objective": "The primary objective of the Introduction to Bioinformatics Algorithms virtual lab is to enable students to understand, implement, and apply fundamental algorithms used in the field of bioinformatics. This lab aims to:<ul><li>Provide a conceptual and practical understanding of key bioinformatics algorithms.<li>Bridge the gap between theoretical learning and real-world application in biological data analysis.</li><li>Offer hands-on experience with computational tools and methods used in bioinformatics and computational biology.</li><li>Support interdisciplinary learning for students from biology, biotechnology, computer science, and related domains.</li><li>Develop problem-solving and algorithmic thinking skills through interactive, simulation-based experiments.</li><li>Encourage self-paced, tutor-independent learning using real biological datasets.</li><li>This lab empowers learners to approach biological problems with computational methods, preparing them for advanced research and interdisciplinary applications in the life sciences.</li></ul>",
   "courseAlignment": {
-    "description": "The syllabi of this lab aligns to the following universities in India.",
+    "description": "The Introduction to Bioinformatics Algorithms virtual lab is designed to complement and enhance the learning outcomes of various undergraduate and postgraduate courses in bioinformatics and computational biology. The experiments and learning activities are aligned with core topics covered in the following courses:",
     "universities": [
-      "Osmania University Data Structures Lab",
-      "JNTU Data Structures Lab"
+    "Bioinformatics and Computational Biology – PC212",
+    "Bioinformatics – BT8651",
+    "Bioinformatics – BIT 2004",
+    "Bioinformatics – BV1551",
+    "Introduction to Bioinformatics – 5EC",
+    "Bioinformatics – 10BT-56",
+    "Anna University – B.Tech in Biotechnology (Bioinformatics)",
+    "Visvesvaraya Technological University, Karnataka – B.Tech in Biotechnology (Bioinformatics)",
+    "Bharathiar University, Tamil Nadu – B.Sc in Biotechnology (Introduction to Bioinformatics)",
+    "University of Kerala – B.Sc in Zoology/Botany/Biotechnology/Microbiology (Bioinformatics)",
+    "Manipal University – B.Tech in Biotechnology (BIO 3161: Bioinformatics Lab)"
     ]
 
- 
+  }
 }
