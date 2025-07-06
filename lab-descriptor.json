@@ -22,21 +22,21 @@
     "name": "Implementation of the Neighbor-Joining (NJ) Algorithm for Phylogenetic Tree Construction",
     "short-name": "nj-tree",
     "repo": "https://github.com/virtual-labs/exp-nj-tree-au",
-    "tag": "v1.0.0",
+    "tag": "v1.0.1",
     "deploy": true
   },
   {
     "name": "Exploring RNA Secondary Structure Prediction using the Nussinov Algorithm",
     "short-name": "rna-nussinov",
     "repo": "https://github.com/virtual-labs/exp-rna-nussinov-au",
-    "tag": "v1.0.0",
+    "tag": "v1.0.1",
     "deploy": true
   },
   {
     "name": "Determining groups for Gene Expression Analysis using Genetic algorithm (GA)",
     "short-name": "ga-groups",
     "repo": "https://github.com/virtual-labs/exp-ga-groups-au",
-    "tag": "v1.0.0",
+    "tag": "v1.0.1",
     "deploy": true
   },
   {
@@ -50,7 +50,7 @@
     "name": "Exploring the Viterbi Algorithm for exon-intron prediction",
     "short-name": "viterbi-exons",
     "repo": "https://github.com/virtual-labs/exp-viterbi-exons-au",
-    "tag": "v1.0.0",
+    "tag": "v1.0.1",
     "deploy": true
   },
   {
