@@ -15,7 +15,7 @@
     "name": "Phylogenetic Tree Reconstruction Using the Fitch-Margoliash (FM) Algorithm",
     "short-name": "fm-tree",
     "repo": "https://github.com/virtual-labs/exp-fm-tree-au",
-    "tag": "v1.0.0",
+    "tag": "v1.0.1",
     "deploy": true
   },
   {
